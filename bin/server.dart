@@ -10,7 +10,8 @@ import 'package:shelf_router/shelf_router.dart';
 import 'package:mime/mime.dart';
 
 // For Google Cloud Run, set _hostname to '0.0.0.0'.
-const _hostname = 'localhost';
+// const _hostname = 'localhost';
+const _hostname = '192.168.5.122';
 const fileStore = 'fileStore';
 final staticHtmlFolder = 'static' + Platform.pathSeparator;
 
